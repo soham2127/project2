@@ -1,0 +1,144 @@
+*{
+    Padding:0;
+    Margin:0;
+    box-sizing:border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+html, body{
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+     
+}
+
+.main > .nav > h2 >span{
+   color:orange;
+}
+.nav .i{
+    font-size:2vw;
+    font-weight: 800;
+    display:none;
+
+
+}
+.nav{
+    width:100%;
+    height: 70px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0vw 3vw;
+    display:relative;
+
+}
+.nav h2{
+    font-size:2.5vw;
+    padding:0vw 1vw;
+    font-weight:800;
+
+}
+.nav-part2{
+    display:flex;
+    gap: 2.5vw;
+    align-items:center;
+}
+button{
+    font-size:1.2vw;
+    background-color:orange;
+    border-radius:5px;
+    padding:0.4vw 1vw;
+    color:white;
+    border:none;
+}
+
+.content{
+    height:calc(100% - 100px);
+    width:100%;
+    display:flex;
+}
+.left{
+    height:100%;
+    width:50%;
+    padding:6vw 4vw;
+    
+}
+.left h1{
+    font-size: 6vw;
+}
+.left p{
+    font-size:1.8vw;
+    color:#666;
+    font-weight: 400;
+    margin-top:1vw;
+    margin-bottom:2vw;
+    width:80%;
+}
+.content > .left > h1 > span{
+    color:#B7D2EF;
+}
+.right{
+    width:50%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+     
+
+}
+img{
+    height:100%;
+    width:60%;
+   
+
+}
+#button{
+    font-size:1.5vw;
+    font-weight:200;
+    padding:0.7vw 1vw;
+    background-color: orange;
+    color:white;
+    border:none;
+}
+
+
+@media (max-width:760px){
+
+     .nav{
+        padding:1vw 5vw;
+        height:60px;
+
+
+     }
+     .nav h2{
+        font-size: 5vw;
+     }
+     .nav h4{
+        display:none;
+     }
+     .nav button{
+        display:none;
+     }
+     i.i{
+        display:block;
+        font-size: 2vw;
+     }
+     .content{
+        display:flex;
+        flex-direction:column;
+        height:calc(100%-60px);
+     }
+     .left{
+        height:30%;
+        width:100%;
+        margin:5vw 5vw;
+        
+     }
+     .right{
+        height:70%;
+        width:100%;
+     }
+}
+
+
+
+
